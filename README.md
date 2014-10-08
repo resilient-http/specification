@@ -11,7 +11,7 @@ for further information
 
 <img src="http://rawgit.com/resilient-http/resilient-http.github.io/master/images/algorithm.svg" />
 
-## Discovery servers API
+## Discovery server API
 
 The following API must be implemented by any of the discovery server which uses Resilient
 
