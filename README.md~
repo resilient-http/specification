@@ -1,0 +1,29 @@
+# Resilient specification
+
+Draft version under active discussion
+
+## Resilient client
+
+### Request flow algorithm
+
+<img src="http://rawgit.com/resilient-http/resilient-http.github.io/master/images/algorithm.svg" />
+
+## Discovery servers API
+
+The following API must be implemented by any of the discovery 
+```js
+
+```
+
+### Supported servers
+
+- [Hydra](innotech.github.io/hydra/) - multi-cloud application discovery, management and balancing service 
+
+
+## Contributing
+
+Please, open an [issue](https://github.com/resilient-http/spec/issues/new) with your proposals
+
+## License
+
+MIT - Resilient project contributos
