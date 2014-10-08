@@ -61,7 +61,7 @@ Content-Type: application/json
 ##### Response body
 
 It should return an array of strings which implements the following JSONSchema
-```
+```json
 {
   "type": "array",
   "items": {
@@ -99,10 +99,6 @@ https://192.168.1.100:8000
 server.me
 http://server.me/?version=1.0
 ```
-
-##### Recommendations
-
-- 
 
 ### Supported servers
 
