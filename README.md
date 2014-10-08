@@ -35,7 +35,7 @@ var client = Resilient({
   discovery: {
     // define the discovery servers list
     servers: ['http://discover1.server.me', 'http://discover2.server.me']
-    // transport a custom headers, for example for auhtentication
+    // transport custom headers, for example to authenticate
     headers: {
       'Accept': 'application/json',
       'API-Token': 'd1964f12ff0388cc897d22b717d0fc3861df8063' 
@@ -48,8 +48,8 @@ var client = Resilient({
 
 ### Response
 
-When Resilient ask to a discovery server, it should return a valid JSON array os string
-with valid URLs.
+When Resilient ask to a discovery server, it should return a valid JSON array of strings
+which contains a valid URL schema
 
 URLs could contains paths, but not query params
 
@@ -61,7 +61,7 @@ Content-Type: application/json
 
 ##### Response body
 
-It should return an array of strings which implements the following JSONSchema
+It should return an array of strings which implements the following JSON schema
 ```json
 {
   "type": "array",
