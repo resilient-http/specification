@@ -13,15 +13,16 @@ for further information
 
 ## Discovery server API
 
-The following API must be implemented by any of the discovery server which uses Resilient
+The following API must be implemented by any of the discovery server consumed by Resilient
 
 ### Request
 
 Resilient will perform a HTTP request to the configured discovery servers in order to retrieve
 the service servers URLs.
 
-It could perform a request to a custom path, transport any HTTP header and use any verb.
-Resilient it's really flexible and configurable to define how the discovery request should be performed
+It could perform a request to a custom path, transport any HTTP header and use any HTTP verb.
+Resilient it's really flexible and configurable to define 
+how the discovery request should be performed from the client
 
 Discovery servers must be always a valid URL, including the protocol schema
 
