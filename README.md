@@ -1,8 +1,11 @@
 # Resilient specification
 
-Draft version under active discussion
+> Draft version under active discussion
 
 ## Client
+
+Client documentation will be soon. Please check the first [client implementation](https://github.com/resilient-http/resilient.js) 
+for further information
 
 ### Request flow algorithm
 
