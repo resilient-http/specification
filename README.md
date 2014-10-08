@@ -81,13 +81,13 @@ It should return an array of strings which implements the following JSONSchema
 [
   "http://api1.server.me",
   "http://api2.server.me",
-  "http://api3.server.me
+  "http://api3.server.me"
 ]
 ```
 
 ###### Valid URLs
 
-```js
+```
 http://server.me
 http://server.me:8080
 https://server.me/api/1.0
@@ -96,7 +96,7 @@ https://192.168.1.100:8000
 
 ###### Invalid URLs
 
-```js
+```
 server.me
 http://server.me/?version=1.0
 ```
@@ -111,4 +111,4 @@ Please, the opened [issue](https://github.com/resilient-http/spec/issues/new) to
 
 ## License
 
-MIT - Resilient project contributos
+[MIT](http://opensource.org/licenses/MIT) - Resilient project contributos
