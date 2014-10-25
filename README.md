@@ -103,7 +103,7 @@ http://server.me/?version=1.0
 
 ### Supported servers
 
-- [Hydra](innotech.github.io/hydra/) - multi-cloud application discovery, management and balancing service 
+- [Hydra](http://innotech.github.io/hydra/) - multi-cloud application discovery, management and balancing service 
 
 ## Discussion
 
