@@ -104,6 +104,7 @@ http://server.me/?version=1.0
 ### Supported servers
 
 - [Hydra](http://innotech.github.io/hydra/) - multi-cloud application discovery, management and balancing service 
+- [Resilient Server](https://github.com/h2non/resilient-server) - Dummy HTTP server fully compatible with the Resilient discovery protocol for testing/development
 
 ## Discussion
 
