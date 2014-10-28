@@ -51,8 +51,6 @@ var client = Resilient({
 When Resilient ask to a discovery server, it should return a valid JSON array of strings
 which contains a valid URL schema
 
-URLs could contains paths, but not query params
-
 ##### Mandatory headers
  
 ```yaml
