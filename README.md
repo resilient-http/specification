@@ -1,15 +1,13 @@
 # Resilient specification
 
-> Draft version under active discussion
+This document explains how the Resilient discovery interface works and should be implemented in compatible servers.
 
-## Client
-
-Client documentation will be soon. Please check the first [client implementation](https://github.com/resilient-http/resilient.js) 
-for further information
+Please note that Resilient can communicate with non-compatible servers via middleware adapters. 
+For instance you can use [Consul](https://consul.io) with Resilient via its [middleware](https://github.com/h2non/resilient-consul)
 
 ### Request flow algorithm
 
-<img src="http://rawgit.com/resilient-http/resilient-http.github.io/master/images/algorithm.svg" />
+You can take a look to the discovery server algorithm graph [here](http://rawgit.com/resilient-http/resilient-http.github.io/master/images/algorithm.svg)
 
 ## Discovery server API
 
@@ -99,10 +97,10 @@ server.me
 http://server.me/?version=1.0
 ```
 
-### Supported servers
+### Servers
 
-- [Hydra](http://innotech.github.io/hydra/) - multi-cloud application discovery, management and balancing service 
 - [Resilient Server](https://github.com/h2non/resilient-server) - Dummy HTTP server fully compatible with the Resilient discovery protocol for testing/development
+- [Consul](https://consul.io) - Via [middleware](https://github.com/h2non/resilient-consul)
 
 ## Discussion
 
