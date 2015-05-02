@@ -1,8 +1,8 @@
 # Resilient specification
 
-This document explains how the Resilient discovery interface works and should be implemented in compatible servers.
+This document explains how the Resilient discovery interface works and should be implemented by compatible servers.
 
-Please note that Resilient can communicate with non-compatible servers via middleware adapters. 
+Please note that since the latest version of Resilient, you can communicate with non-compatible servers via middleware adapters. 
 For instance you can use [Consul](https://consul.io) with Resilient via its [middleware](https://github.com/h2non/resilient-consul)
 
 ### Request flow algorithm
